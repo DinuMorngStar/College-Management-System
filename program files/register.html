@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> STUDENT REGISTER MANAGEMENT SYSTEM</title>
+<style>
+h3{color:red;}
+body{background-color:powderblue;}
+</style>
+</head>
+<body class = "p-1">
+<form name = "student" mathod="post" action="register.php">
+<div class ="container">
+<div class = "row">
+<table border =10 class="bg-info text-white display-7 font-weight-bold">
+<thead>
+<h3 class="bg-info text-white font-weight-bold"><b>ATTANANCE &nbsp REGISTER &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp SA &nbsp ENGINEERING &nbsp COLLEGE  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp DEPARTMENT &nbsp OF &nbsp  CSE
+</b></h3>
+</thead>
+<tr><tr><td>pic</td><td>Reg.no.</td><td>Student</td><td>Roll.no.</td>
+<td> Mark Register<br><input type="date" id="iMark" value=""></td>
+<td> Mark Register<br><input type="date" id="iMark" value=""></td>
+<td> Mark Register<br><input type="date" id="iMark" value=""></td>
+<td> Mark Register<br><input type="date" id="iMark" value=""></td>
+<td> Mark Register<br><input type="date" id="iMark" value=""></td>
+<td> Mark Register<br><input type="date" id="iMark" value=""></td>
+</tr>
+
+<tr><td><img src="pic1.png" width="47" height="55" ></td><td><center>111919104031</center></td>
+<td class="p-2 nb-2 bg-white text-dark"><a href="stu1.html">Dinesh kumar</td>
+<td class="text-center">1916091</td>
+
+<td><select name="Row1Col1" id="iRow1Col1" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present1">P</option>
+<option value="absent1">A</option>
+</select></td>
+
+<td><select name="Row1Col2" id="iRow1Col2" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present2">P</option>
+<option value="absent2">A</option>
+</select></td>
+
+<td><select name="Row1Col3" id="iRow1Col3" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present3">P</option>
+<option value="absent3">A</option>
+</select></td>
+
+<td><select name="Row1Col4" id="iRow1Col4" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present4">P</option>
+<option value="absent4">A</option>
+</select></td>
+
+<td><select name="Row1Col5" id="iRow1Col5" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present5">P</option>
+<option value="absent5">A</option>
+</select></td>
+
+<td><select name="Row1Col6" id="iRow1Col6" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present6">P</option>
+<option value="absent6">A</option>
+</select>
+</td></tr>
+
+<I------------------------------------------------------------------->
+
+<tr><td><img src="pic2.png" width="47" height="55" ></td><td><center>111919104032</center></td>
+<td class="p-2 nb-2 bg-white text-dark"><a href="stu2.html">Vignesh</td>
+<td class="text-center">1916092</td>
+
+<td><select name="Row2Col1" id="iRow2Col1" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present1">P</option>
+<option value="absent1">A</option>
+</select></td>
+
+<td><select name="Row2Col2" id="iRow2Col2" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present2">P</option>
+<option value="absent2">A</option>
+</select></td>
+
+<td><select name="Row2Col3" id="iRow2Col3" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present3">P</option>
+<option value="absent3">A</option>
+</select></td>
+
+<td><select name="Row2Col4" id="iRow2Col4" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present4">P</option>
+<option value="absent4">A</option>
+</select></td>
+
+<td><select name="Row2Col5" id="iRow2Col5" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present5">P</option>
+<option value="absent5">A</option>
+</select></td>
+
+<td><select name="Row2Col6" id="iRow2Col6" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present6">P</option>
+<option value="absent6">A</option>
+</select></td></tr>
+
+<I------------------------------------------------------------------->
+
+<tr><td><img src="pic3.png" width="47" height="55" ></td><td><center>111919104034</center></td>
+<td class="p-2 nb-2 bg-white text-dark"><a href="stu3.html">Pandian</td>
+<td class="text-center">1916093</td>
+
+<td><select name="Row3Col1" id="iRow3Col1" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present1">P</option>
+<option value="absent1">A</option>
+</select></td>
+
+<td><select name="Row3Col2" id="iRow3Col2" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present2">P</option>
+<option value="absent2">A</option>
+</select></td>
+
+<td><select name="Row3Col3" id="iRow3Col3" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present3">P</option>
+<option value="absent3">A</option>
+</select></td>
+
+<td><select name="Row3Col4" id="iRow3Col4" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present4">P</option>
+<option value="absent4">A</option>
+</select></td>
+
+<td><select name="Row3Col5" id="iRow3Col5" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present5">P</option>
+<option value="absent5">A</option>
+</select></td>
+
+<td><select name="Row3Col6" id="iRow3Col6" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present6">P</option>
+<option value="absent6">A</option>
+</select></td></tr>
+
+<I------------------------------------------------------------------->
+
+<tr><td><img src="pic4.png" width="47" height="55" ></td><td><center>111919104035</center></td>
+<td class="p-2 nb-2 bg-white text-dark"><a href="stu4.html">Arun </td>
+<td class="text-center">1916094</td>
+
+<td><select name="Row4Col1" id="iRow4Col1" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present1">P</option>
+<option value="absent1">A</option>
+</select></td>
+
+<td><select name="Row4Col2" id="iRow4Col2" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present2">P</option>
+<option value="absent2">A</option>
+</select></td>
+
+<td><select name="Row4Col3" id="iRow4Col3" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present3">P</option>
+<option value="absent3">A</option>
+</select></td>
+
+<td><select name="Row4Col4" id="iRow4Col4" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present4">P</option>
+<option value="absent4">A</option>
+</select></td>
+
+<td><select name="Row4Col5" id="iRow4Col5" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present5">P</option>
+<option value="absent5">A</option>
+</select></td>
+
+<td><select name="Row4Col6" id="iRow4Col6" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present6">P</option>
+<option value="absent6">A</option>
+</select></td></tr>
+
+<I------------------------------------------------------------------->
+
+<tr><td><img src="pic8.jpg" width="47" height="55" ></td><td><center>111919104038</center></td>
+<td class="p-2 nb-2 bg-white text-dark"><a href="stu5.html">Bhuvanesh</td>
+<td class="text-center">1916095</td>
+
+<td><select name="Row5Col1" id="iRow5Col1" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present1">P</option>
+<option value="absent1">A</option>
+</select></td>
+
+<td><select name="Row5Col2" id="iRow5Col2" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present2">P</option>
+<option value="absent2">A</option>
+</select></td>
+
+<td><select name="Row5Col3" id="iRow5Col3" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present3">P</option>
+<option value="absent3">A</option>
+</select></td>
+
+<td><select name="Row5Col4" id="iRow5Col4" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present4">P</option>
+<option value="absent4">A</option>
+</select></td>
+
+<td><select name="Row5Col5" id="iRow5Col5" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present5">P</option>
+<option value="absent5">A</option>
+</select></td>
+
+<td><select name="Row5Col6" id="iRow5Col6" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present6">P</option>
+<option value="absent6">A</option>
+</select></td></tr>
+
+<I------------------------------------------------------------------->
+
+<tr><td><img src="pic6.png" width="47" height="55" ></td><td><center>111919104039</center></td>
+<td class="p-2 nb-2 bg-white text-dark"><a href="stud6.html">Dhanush</td>
+<td class="text-center">1916096</td>
+
+<td><select name="Row6Col1" id="iRow6Col1" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present1">P</option>
+<option value="absent1">A</option>
+</select></td>
+
+<td><select name="Row6Col2" id="iRow6Col2" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present2">P</option>
+<option value="absent2">A</option>
+</select></td>
+
+<td><select name="Row6Col3" id="iRow6Col3" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present3">P</option>
+<option value="absent3">A</option>
+</select></td>
+
+<td><select name="Row6Col4" id="iRow6Col4" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present4">P</option>
+<option value="absent4">A</option>
+</select></td>
+
+<td><select name="Row6Col5" id="iRow6Col5" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present5">P</option>
+<option value="absent5">A</option>
+</select></td>
+
+<td><select name="Row6Col6" id="iRow6Col6" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present6">P</option>
+<option value="absent6">A</option>
+</select></td></tr>
+
+<I------------------------------------------------------------------->
+
+<tr><td><img src="pic7.png" width="47" height="55" ></td><td><center>111919104040</center></td>
+<td class="p-2 nb-2 bg-white text-dark"><a href="stu7.html">Gokul</td>
+<td class="text-center">1916097</td>
+
+<td><select name="Row7Col1" id="iRow7Col1" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present1">P</option>
+<option value="absent1">A</option>
+</select></td>
+
+<td><select name="Row7Col2" id="iRow7Col2" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present2">P</option>
+<option value="absent2">A</option>
+</select></td>
+
+<td><select name="Row7Col3" id="iRow7Col3" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present3">P</option>
+<option value="absent3">A</option>
+</select></td>
+
+<td><select name="Row7Col4" id="iRow7Col4" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present4">P</option>
+<option value="absent4">A</option>
+</select></td>
+
+<td><select name="Row7Col5" id="iRow7Col5" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present5">P</option>
+<option value="absent5">A</option>
+</select></td>
+
+<td><select name="Row7Col6" id="iRow7Col6" style="width: 120px; margin: 1px;
+text-align:right" onchange="myMark1(thhis,value);">
+<option value="space"></option>
+<option value="present6">P</option>
+<option value="absent6">A</option>
+</select></td></tr>
+
+<I------------------------------------------------------------------->
+
+<tr>
+<td colspan=4 class= "p-2 nb-2 bg-white text-dark">ATTENDANCE TOTAL</td>
+
+<td>
+<input type="text" name="txtregister1" id="txt1" style="width:120px text-align:right" value= 0>
+</td>
+
+<td>
+<input type="text" name="txtregister2" id="txt2" style="width:120px text-align:right" value= 0>
+</td>
+
+<td>
+<input type="text" name="txtregister3" id="txt3" style="width:120px text-align:right" value= 0>
+</td>
+
+<td>
+<input type="text" name="txtregister4" id="txt4" style="width:120px text-align:right" value= 0>
+</td>
+
+<td>
+<input type="text" name="txtregister5" id="txt5" style="width:120px text-align:right" value= 0>
+</td>
+
+<td>
+<input type="text" name="txtregister6" id="txt6" style="width:120px text-align:right" value= 0>
+</td>
+
+
+</table>
+</div>
+</div>
+<script>
+
+function myMark1(element)
+{
+var q =parseInt(document.getElementById("txt1").value);
+document.getElementById("txt1").value=q+1;
+}
+
+function myMark2(element)
+{
+var q =parseInt(document.getElementById("txt2").value);
+document.getElementById("txt2").value=q+1;
+}
+
+function myMark3(element)
+{
+var q =parseInt(document.getElementById("txt3").value);
+document.getElementById("txt3").value=q+1;
+}
+
+function myMark4(element)
+{
+var q =parseInt(document.getElementById("txt4").value);
+document.getElementById("txt4").value=q+1;
+}
+
+function myMark5(element)
+{
+var q =parseInt(document.getElementById("txt5").value);
+document.getElementById("txt5").value=q+1;
+}
+
+function myMark6(element)
+{
+var q =parseInt(document.getElementById("txt6").value);
+document.getElementById("txt6").value=q+1;
+}
+</script>
+
+</form>
+
+
+</body>
+</html>

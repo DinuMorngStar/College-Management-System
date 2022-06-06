@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>www.saec.com</title>
+<script>
+function validateForm() {
+  let x = document.myForm.fname.value;
+  let y = document.myForm.pwd.value;
+  if (x == "" || y== "") {
+    alert("Name and password must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+<center>
+<style>
+input[type=text],input[type=password]{
+ background-color:#ddd;
+ width:15%;
+ height:5%;
+}
+body{background-image:url("saec.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+}
+div{padding: 70px;}
+h1{color:red;background-color:pink;padding-top:0.5px;padding-bottom:0.5px;}
+p{color:blue;}
+</style>
+<form name="myForm" action="home.html" onsubmit="return validateForm()" method="post">
+<h1 style="border: 2px solid Tomato;"><marquee> Welcome to  S.A ENGINEERING COLLEGE </marquee></h1>
+
+<br>
+<br>
+<br>
+
+<div>
+<label for="fname"><b>Name:</b></label>
+<input type="text" id="fname" placeholder="enter name" name="fname"><br>
+<br>
+<label for="pwd"><b>Password:</b></label>
+<input type="password" id="pwd" placeholder="enter password" name="pwd"><br>
+<br>
+<input type="submit" value="Submit">
+<input type="button" value="cancel">
+
+</div>
+</center>
+</form>
+ 
+</body>
+</html>
